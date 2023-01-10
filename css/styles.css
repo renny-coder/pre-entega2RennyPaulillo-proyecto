@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header {
+  background-color: lavenderblush;
+  padding: 25px; }
+
+.navbar {
+  width: 100%;
+  flex-wrap: initial;
+  background: #3f5efb;
+  background: radial-gradient(circle, #3f5efb 0%, #e546fc 100%);
+  justify-content: space-between;
+  align-items: initial;
+  margin-top: 0px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  position: sticky; }
+
+.nav-item {
+  list-style-type: none;
+  display: flex;
+  margin: 0 20; }
+  .nav-item .nav-link {
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px; }
+
+.nav-link :hover {
+  background-color: black;
+  color: white; }
+
+.nav-link :active {
+  background-color: purple; }
+
+.navbar-brand {
+  animation: ease-in animacion 3s;
+  margin-bottom: 0px; }
+
+.menu-nav :hover {
+  background-color: blue;
+  color: white;
+  border-radius: 10px; }
+
+@keyframes animacion {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+
+body {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-items: auto;
+  background-color: lavenderblush; }
+
+.imagen-p {
+  max-width: 800px;
+  max-height: 800px;
+  margin: 10px auto;
+  display: block;
+  margin-top: 50px;
+  border-radius: 20px; }
+
+h2 {
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 50px; }
+
+.video-1 {
+  padding: 0.5rem;
+  display: flex;
+  margin-top: 100px;
+  margin-right: 100px; }
+
+.video-2 {
+  padding: 0.5rem;
+  display: flex;
+  margin-top: 100px;
+  margin-right: 100px; }
+
+.main-index {
+  height: 260vh; }
+
+footer {
+  padding: 20px;
+  background-color: lavenderblush;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 0px; }
+  footer ul li {
+    color: purple;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none; }
+
+ul i :hover {
+  color: white; }
+
+/* biografia */
+.biografia-main {
+  height: 180vh; }
+
+h2 {
+  margin-bottom: 50px;
+  color: purple; }
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* preguntas frecuentes*/
+.pf-main {
+  height: 150vh; }
+
+summary {
+  margin-top: 20px;
+  list-style: none;
+  color: purple;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px; }
+
+div p {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 10px; }
+
+summary::before {
+  content: "+";
+  padding-right: 1rem; }
+
+details[open] summary::before {
+  content: "-"; }
+
+/*CONTACTO*/
+.contacto-main {
+  height: 100vh; }
+
+h1 {
+  color: black; }
+
+.container-form p {
+  display: table-cell;
+  font-size: 17px;
+  line-height: 1.6rem;
+  margin: 0; }
+
+.container-form form .campo, textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  border: 1px solid #9b4040;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  outline: 0px; }
+
+.container-form .btn-enviar:hover {
+  background: #e39403;
+  margin-bottom: 200px; }
+
+/* MEDIA QUERIES */
+@media (max-with: 768px) {
+  body {
+    background-color: black; } }
+
+@media (min-with: 576px) {
+  body {
+    background-color: blue; } }
+
+/*#sourceMappingURL= style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
