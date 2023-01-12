@@ -3,9 +3,14 @@
   padding: 0px;
   box-sizing: border-box; }
 
-header {
-  background-color: lavenderblush;
-  padding: 25px; }
+.contenedor {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .contenedor-header {
+    background-color: lavenderblush;
+    padding: 25px; }
 
 .navbar {
   width: 100%;
@@ -52,6 +57,10 @@ footer {
   footer-bi:hover {
     color: purple; }
 
+@media screen {
+  .contenedor {
+    max-width: 100%; } }
+
 body {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -59,8 +68,7 @@ body {
   background-color: lavenderblush; }
 
 .imagen-p {
-  max-width: 800px;
-  max-height: 800px;
+  width: 80%;
   margin: 10px auto;
   display: block;
   margin-top: 50px;
@@ -98,6 +106,7 @@ h2 {
 
 img {
   width: 50%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;

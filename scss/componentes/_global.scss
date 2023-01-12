@@ -3,11 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
   }
+   .contenedor{
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    &-header{
+      background-color: $celeste;
+      padding: 25px;
+    }
+   } 
   
-    header {
-    background-color: $celeste;
-    padding: 25px;
-  }
+ 
   
     .navbar {
     width: 100%;
@@ -66,6 +73,12 @@
          color: purple;
     }
   }
+
+@media screen {
+  .contenedor{
+    max-width: 100%;
+  }
+}
   
 
   
